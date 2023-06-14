@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav.menu {
+    display: block;
+    width: 100%;
+    background: #072f4c;
+    font-size: 0;
+}
+nav.menu ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+.typPojisteni {
+    padding-right: 100px;
+}
+nav.menu a {
+    display: block;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 2em;
+    padding: 0 15px;
+}
+nav.menu a:hover {
+    color: rgba(205, 201, 201, 0.901);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    line-height: 30px;
+    font-size: small;
+    font-weight: 700;
+}
+table tr {
+    text-align: left;
+    border: 1px solid #072f4c;
+}
+table tr td,th {
+    border: 1px solid #072f4c;
+    padding-left: 10px;
+}
+.kontejner1 {
+display: flex;
+}
+
+.inputy {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 20px;
+}
+.stylBorder {
+    line-height: 2em;
+    border-radius: 5px;
+    border-color: rgb(186, 186, 192);
+    color: rgb(106, 106, 109);
+    margin: 5px 10px 10px 0;
+}
+
+img {
+    height: 150px;
+    padding: 30px;
+}
+
+.save {
+    border: 0;
+    background-color: rgb(35, 91, 245);
+    color: white;
+    line-height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: large;
+    margin-left: 55px;
+}
+@media (max-width: 600px) {
+    nav.menu {
+        background: #18450a;
+    }
+    .typPojisteni {
+        padding-right: 50px;
+    }
+}
+@media (max-width: 430px) {
+    nav.menu ul {
+        display: block;
+    }
+    .kontejner1 {
+        display: block;
+    }
+}

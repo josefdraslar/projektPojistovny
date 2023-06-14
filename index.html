@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css" type="text/css" />
+    <title>PROJEKT</title>
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+            <li class="typPojisteni"><a href="stranka1.html">PojištěníApp</a></li>
+            <li class="pojistenci"><a href="stranka2.html">Pojištěnci</a></li>
+            <li class="oAplikaci"><a href="stranka3.html">O aplikaci</a></li>
+        </ul>
+    </nav>
+    
+    <div id="data-table"></div>
+    <h1>Pojištěnci</h1>
+    <table id="seznamPojistencu">
+        <tr>
+            <th>Jméno a příjmení</th>
+            <th>Věk</th>
+            <th>Telefon</th>
+        </tr>
+       
+    </table>
+    <h1>Nový pojištěnec</h1>
+
+        <div class="kontejner1">
+            <img id="obrys" src="obrazky/postava.png" alt="postava" />
+
+            <form id="form">
+                <div class="inputy">
+                    <div>
+                        <label for="jmeno">Jméno</label><br />
+                        <input id="deleteInputFirstName" class="stylBorder" type="text" name="firstName" aria-label="jméno" required><br />
+                    </div>
+                    <div>
+                        <label for="prijmeni">Příjmení</label><br />
+                        <input id="deleteInputLastName" class="stylBorder" type="text" name="lastName" aria-label="příjmení" required><br />
+                    </div>
+                    <div>
+                        <label for="vek">Věk</label><br />
+                        <input id="deleteInputAge" class="stylBorder" type="number" name="age" aria-label="věk" required><br />
+                    </div>
+                    <div>    
+                        <label for="mobil">Telefon</label><br />
+                        <input id="deleteInputTel" class="stylBorder" type="tel" name="tel" aria-label="telefon" required><br />
+                    </div>
+                    </div>
+                <div>
+                    <button class="save" type="submit">Uložit</button>
+                </div>
+            </form>
+        </div>
+        <div>
+            
+        </div>
+    
+
+
+</body>
+<script src="js/SeznamPojistencu.js"></script>
+<script src="js/Pojistenec.js"></script>
+<script src="js/obsluha.js"></script>
+</html>
