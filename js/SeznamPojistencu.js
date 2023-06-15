@@ -17,10 +17,10 @@ class SeznamPojistencu {
 
     //odstranění údajů z formuláře po submitu
     clearForm = () => {
-        document.getElementById('deleteInputFirstName').value = "";
-        document.getElementById('deleteInputLastName').value = "";
-        document.getElementById('deleteInputAge').value = "";
-        document.getElementById('deleteInputTel').value = ""; 
+        document.getElementById('inputFirstName').value = "";
+        document.getElementById('inputLastName').value = "";
+        document.getElementById('inputAge').value = "";
+        document.getElementById('inputTel').value = ""; 
     }
 
     //přidání pojištěnců do pole a JSONu z inputů
