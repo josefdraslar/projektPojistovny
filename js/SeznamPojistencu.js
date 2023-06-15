@@ -6,8 +6,7 @@ class SeznamPojistencu {
     constructor() {
         const pojistenciLS = localStorage.getItem("pojistenci");
         const myPojistenci = JSON.parse(pojistenciLS);
-        //this.pojistenci = [];
-        this.pojistenci = myPojistenci;
+        this.pojistenci = (myPojistenci) ? myPojistenci : [];
 
         this.initForm()
         //vždy projde pole z JSON a zapíše do tabulky
