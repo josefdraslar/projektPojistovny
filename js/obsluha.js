@@ -1,4 +1,4 @@
 'use strict'
 
-new SeznamPojistencu();
+const seznamPojistencu = new SeznamPojistencu();
 
